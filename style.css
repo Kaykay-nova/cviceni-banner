@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
@@ -24,8 +25,16 @@ body {
 .banner {
   background-color: #e74c3c;
 }
+
 .obdelnik {
   background-color: #2ecc71;
+}
+
+@media (max-width: 800px) {
+    
+  .banner {
+    display: none;
+  }
 }
 
 /*
